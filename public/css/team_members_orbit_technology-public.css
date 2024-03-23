@@ -1,0 +1,32 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.team-members {
+  display: flex;
+}
+.team-member-bottom,
+.team-member-top {
+  padding: 30px;
+  text-align: center;
+}
+.team-member-bottom .position,
+.team-member-top .position {
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.team-member-bottom h2,
+.team-member-top h2 {
+  text-decoration: none !important;
+  text-transform: capitalize;
+}
+.team-member-bottom img,
+.team-member-top img {
+  width: 200px;
+  border-radius: 50%;
+}
+.see-all-button {
+  text-align: center;
+}
